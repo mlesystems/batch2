@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Website</title>
+    <link rel="shortcut icon" href="images/20.jpg" type="image/png">
+</head>
+<body>  
+        <header class="nav">
+        <p>Travel Website</p>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            
+        </ul>
+      </header>
+    
+    <main>
+        <section class="main">
+          <!-- <img src="/images/4.jpg" alt=""> -->
+    <h2>Register Here To Travel With Us</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Enter your Name"> <br>
+        <input type="email" placeholder="Email"> <br>
+        <input type="password" placeholder="Password"> <br>
+      </div>
+        
+        <!-- Radio button -->
+        <p class="gender">Select Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male"><br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female"><br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other"><br> <br>
+      
+
+        <!-- Dropdown List -->
+        <label class="dropdown"for="country">Country</label>
+        <select id="country">
+            <option value="India">India</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Nepal">Nepal</option>
+        </select>
+        <button class="btn" type="submit">Submit</button>
+        
+    </form>
+
+        </section>
+
+        <section class="main2"> 
+            <div class="gallery">
+                  <img src="images/1.jpg" alt="" width="600" height="400" id="slideimage1">
+                <div class="desc">Add a description of the image here</div>
+              </div>
+              
+              <div class="gallery">
+                  <img src="images/2.jpg" alt="" width="600" height="400" id="slideimage2">
+                <div class="desc">Add a description of the image here</div>
+              </div>
+              
+              <div class="gallery">
+                <img src="images/3.jpg" alt="" width="600" height="400" id="slideimage3">
+              <div class="desc">Add a description of the image here</div>
+            </div>
+              
+              <div class="gallery">
+                  <img src="images/6.jpg" alt="" width="600" height="400" id="slideimage4">
+                <div class="desc">Add a description of the image here</div>
+              </div>
+        </section>
+
+    </main>
+
+  <footer>
+    <marquee behavior="alternate" direction="right">😎 This is a Travel Website of Saqib 😎</marquee>
+  </footer>
+    
+</body>
+<script src="/index.js"></script>
+</html>
