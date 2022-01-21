@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".\formstyles1.css">
+</head>
+<body>
+    <table>
+        <colgroup>
+        
+            <col span = "2" style="background-color: rgb(9, 10, 10); width: 50%;">
+            </colgroup>
+        <tr>
+            <td rowspan="7"><img src="/img/log5.jpg" height =400 width="100%"> </td>
+            <td id= "create">Create Account</td>
+        </tr>
+        
+        <!-- <div style="background-color: rgb(59, 71,89); display: inline-block;"> -->
+        <!-- <form style="background-color: rgb(59, 71,89);"> -->
+            <form class="form1">
+        <tr>
+            <td> <input type="text" name="fullname" placeholder="Full Name" ></td>
+        </tr>
+        <tr>
+            <td> <input type="text" name = "email"placeholder="Email Address"></td>
+        </tr>
+        <tr>
+            <td> <input type="text" name="phone" placeholder="Phone Number"></td>
+        </tr>
+        <tr>
+            <td> <input type="password" name="password" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <td> <input type="password" name="confirm password" placeholder="Confirm Password"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="submitform">
+                 <div class="submititems"><input type="submit" value="SignUp " name='submit' id="SignUp"></div>
+                 <div class="submititems"><input type="submit" value="Login" id="already"></div>
+                </div>
+            </td>
+        </tr>
+    </form>
+    </table>
+</body>
+<script src="./form.js"></script>
+</html>
