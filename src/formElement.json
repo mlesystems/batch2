@@ -1,0 +1,66 @@
+[{       
+    "id":"1",
+    "name":"Customer",
+    "page_label":"Customer Information",
+    "fields":[
+        {
+            "id":"1",
+            "label": "Name",
+            "required": true,
+            "data_type": "Integer",
+            "ui_item": "textbox",
+            "attribute":{}
+        },
+        {
+            "id":"2",
+            "label": "Gender",
+            "required": "true",
+            "data_type": "Integer",
+            "ui_item": "radiobutton",
+            "attribute":[
+                {
+                    "id":"1",
+                    "label":"Male"
+                },
+                {
+                    "id":"2",
+                    "label":"Female"
+                },
+                {
+                    "id":"3",
+                    "label":"Other"
+                }
+            ]
+        },
+        {
+            "id":"3",
+            "label": "Country",
+            "required": true,
+            "data_type": "Integer",
+            "ui_item": "dropdown",
+            "options":[ 
+                        
+                        { "label":"India",
+                          "value":"india"
+                        },
+                       
+                        {"label":"United State Of America",
+                         "value":"usa"},
+                       
+                         {"label":"Uninted Kingdom",
+                         "value":"uk"}
+
+                      ],
+            "attribute":[]
+        },
+        {
+            "id":"4",
+            "label": "dateofbirth",
+            "required": true,
+            "data_type": "date",
+            "ui_item": "calendar",
+            "attribute":{}
+        }
+    ]
+}
+]
